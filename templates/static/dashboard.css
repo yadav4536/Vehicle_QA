@@ -1,0 +1,52 @@
+/* External CSS: dashboard.css */
+
+body {
+    background-color: #067ef6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.button-group button {
+    margin: 0 10px;
+}
+
+.table-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+.btn {
+    margin: 0 10px;
+
+}
+.image img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+.text-center img {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .button-group {
+        flex-direction: column
+        
+    }
+
+    .button-group button {
+        margin-bottom: 12px;
+        
+    }
+
+    .image img {
+        max-width: 90%;
+    }
+}

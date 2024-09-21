@@ -1,0 +1,72 @@
+/* dashboard.css */
+
+/* Body styles */
+body {
+    background-color: #6fb3f7; /* Light background color */
+    font-family: Arial, sans-serif;
+    background-image: url("/static/tata_background (1).jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Container styles */
+.container {
+    background-color: #78c7fc; /* Changed to white for better contrast */
+    border-radius: 8px; /* Rounded corners */
+    width: 90%;
+    
+    max-width: 800px; /* Limit maximum width */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 20px; /* Padding around content */
+    margin: auto; /* Center container */
+}
+
+/* Heading styles */
+h1 {
+    color: #dc3545; /* Change to your desired color (e.g., red) */
+    font-weight: bold; /* Make heading bold */
+    text-align: center; /* Center the heading */
+    margin-bottom: 20px; /* Spacing below the heading */
+}
+
+/* Footer styles */
+footer {
+    background-color: #c1bbbb; /* Light footer background */
+    border-top: 1px solid #e9ecef; /* Subtle border on top */
+    margin-top: 20px; /* Margin for spacing */
+    padding: 10px 0; /* Padding for footer content */
+}
+
+/* Label styles */
+.form-label {
+    font-weight: bold; /* Bold labels */
+}
+
+/* Textarea styles */
+textarea.form-control {
+    resize: none; /* Disable resizing */
+}
+
+/* Select styles */
+.form-select {
+    border-radius: 4px; /* Rounded corners for selects */
+}
+
+/* Adjust rows for selects */
+.row.mb-3 {
+    align-items: center; /* Center align items vertically */
+}
+
+/* Button styles */
+.btn-container {
+    text-align: center; /* Center buttons */
+    margin-top: 20px; /* Spacing above buttons */
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+    .col-sm-2, .col-sm-10 {
+        flex: 100%; /* Stack columns on smaller screens */
+    }
+}

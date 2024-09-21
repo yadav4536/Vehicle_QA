@@ -1,0 +1,76 @@
+/* Global Styles */
+body {
+    background-color: #5aa2eb; /* Light background color */
+    font-family: Arial, sans-serif; /* Font style */
+    background-image: url("/static/tata_background (1).jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Container Styles */
+.container {
+    margin-top: 30px; /* Space above the container */
+    border-radius: 10px; /* Rounded corners */
+    background-color: #88b8f7; /* Background for the form */
+    padding: 20px; /* Padding inside the container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Heading Styles */
+h1 {
+    color: #e3172b; /* Custom color for the heading */
+    font-weight: bold; /* Bold text */
+    text-align: center; /* Center the heading */
+}
+
+/* Label Styles */
+.form-label {
+    font-weight: bold; /* Bold labels for emphasis */
+}
+
+/* Button Styles */
+.btn-container {
+    display: flex; /* Use flexbox for button layout */
+    justify-content: center; /* Center buttons horizontally */
+}
+
+.btn-container .btn {
+    margin: 0 5px; /* Space between buttons */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Primary button color */
+    border-color: #007bff; /* Border color */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.btn-secondary {
+    background-color: #6c757d; /* Secondary button color */
+    border-color: #6c757d; /* Border color */
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268; /* Darker grey on hover */
+}
+
+/* Footer Styles */
+footer {
+    margin-top: 20px; /* Space above the footer */
+    background-color: #a2a6a9; /* Grey text for the footer */
+    text-align: center; /* Center the footer text */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .btn-container {
+        flex-direction: column; /* Stack buttons vertically on smaller screens */
+    }
+
+    .btn-container .btn {
+        margin-bottom: 10px; /* Space below buttons */
+    }
+}
